@@ -26,6 +26,10 @@ set mouse=a
 nnoremap j k
 nnoremap k j
 
+" Remapping ; & : for : and :! respectively
+nnoremap ; :
+nnoremap : :!
+
 " Showing line numbers
 set number
 
@@ -76,8 +80,10 @@ Plug 'vim-airline/vim-airline-themes'
 " /////////TWEAKS///////
 " Super Tab
 Plug 'ervandew/supertab'
-" EasyMotion
+" EasyMotion (Easy nav movement)
 Plug 'https://github.com/easymotion/vim-easymotion'
+" Nerd Commenter (Easy commenting)
+Plug 'scrooloose/nerdcommenter'
 
 " ////////NEW ITEMS//////
 " Git interface
