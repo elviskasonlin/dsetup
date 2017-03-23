@@ -93,6 +93,11 @@ Plug 'vim-airline/vim-airline'
 " Vim Minimap
 Plug 'https://github.com/severin-lemaignan/vim-minimap'
 
+" ////////MAJOR ADD-ONS///////
+" Syntastic (Linting)
+Plug 'https://github.com/vim-syntastic/syntastic'
+" YouCompleteMe (Auto completion engine)
+Plug 'Valloric/YouCompleteMe'
 
 " Plug set-up end
 call plug#end()
@@ -123,3 +128,13 @@ let g:minimap_show='<leader>mms'
 let g:minimap_update='<leader>mmu'
 let g:minimap_close='<leader>mmc'
 let g:minimap_toggle='<leader>mmt'
+
+" Syntastic
+nnoremap <leader>[ :lnext
+nnoremap <leader>] :previous
+let g:syntastic_check_on_open = 1
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:yntastic_enable_balloons = 1
+let g:syntastic_auto_jump = 2
+let g:syntastic_loc_list_height = 6
