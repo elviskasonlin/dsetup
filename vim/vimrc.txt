@@ -5,9 +5,8 @@
 " Main essentials setup
 syntax on
 
-set tabstop=2
-set shiftwidth=2
-
+set expandtab tabstop=2 shiftwidth=2
+set path=$PWD/**
 set t_Co=256
 
 let mapleader = ","
@@ -29,6 +28,8 @@ nnoremap k j
 " Remapping ; & : for : and :! respectively
 nnoremap ; :
 nnoremap : :!
+" Remapping ESC to ALT+J
+inoremap kj <ESC>
 
 " Showing line numbers
 set number
@@ -49,7 +50,7 @@ set switchbuf=usetab
 "nnoremap [ :sbnext<CR>
 "nnoremap ] :sbprevious<CR>
 nnoremap <leader>l :ls<CR>
-nnoremap [ :bn<CR>
+nnoremap [ :bp<CR>
 nnoremap ] :bn<CR>
 nnoremap <leader>t :enew<CR> "\t to create new buffer
 nnoremap <leader>xt :bp <AR> bd #<CR> "\t to quit and go to prev buffer
@@ -76,6 +77,11 @@ call plug#begin('~/.vim/vimplugins')
 Plug 'https://github.com/reedes/vim-thematic'
 " Airline-themes
 Plug 'vim-airline/vim-airline-themes'
+
+" /////////DEPENDENCIES//////
+Plug 'https://github.com/powerline/fonts'
+Plug 'https://github.com/flazz/vim-colorschemes'
+
 
 " /////////TWEAKS///////
 " Super Tab
@@ -130,8 +136,8 @@ let g:minimap_close='<leader>mmc'
 let g:minimap_toggle='<leader>mmt'
 
 " Syntastic
-nnoremap <leader>[ :lnext
-nnoremap <leader>] :previous
+nnoremap <leader>[ :lprevious
+nnoremap <leader>] :lnext
 let g:syntastic_check_on_open = 1
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1

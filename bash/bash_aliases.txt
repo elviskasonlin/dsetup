@@ -29,3 +29,6 @@ mkdcd() {
 alias mvf="mv -f"
 alias mvi="mv -i"
 
+
+# code_design folder cd #
+alias cdu="cd ~/Code_Design"

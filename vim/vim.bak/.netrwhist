@@ -1,3 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/Users/elviskasonlin/code_design/20170301_BOT_SportSGReporting'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/elviskason.lin/Code_Design/20170301_BOT_SportSGBot'
+let g:netrw_dirhist_2='/Users/elviskason.lin/Code_Design/20170301_BOT_SportSGBot/src'
+let g:netrw_dirhist_3='/Users/elviskason.lin/Code_Design/20170301_BOT_SportSGBot/src/report'
+let g:netrw_dirhist_4='/Users/elviskason.lin/Code_Design/20170301_BOT_SportSGBot'
+let g:netrw_dirhist_5='/Users/elviskason.lin/Code_Design/20170301_BOT_SportSGBot/src'
+let g:netrw_dirhist_6='/Users/elviskason.lin/Code_Design/20170301_BOT_SportSGBot/src/report'
+let g:netrw_dirhist_7='/Users/elviskason.lin/Code_Design/20170301_BOT_SportSG'
+let g:netrw_dirhist_8='/Users/elviskason.lin/Code_Design/20170301_BOT_SportSG/src'
+let g:netrw_dirhist_9='/Users/elviskason.lin/Code_Design/20170301_BOT_SportSG/src/report'
