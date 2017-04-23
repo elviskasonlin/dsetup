@@ -29,6 +29,14 @@ mkdcd() {
 alias mvf="mv -f"
 alias mvi="mv -i"
 
-
 # code_design folder cd #
 alias cdu="cd ~/Code_Design"
+
+# xclip
+# i.e. CMD 1 : pwd | c
+# CMD 2 : cd `v`
+
+alias c=“xclip”
+Alias co=“xclip -selection clipboard”
+alias v=“xclip -o”
+
