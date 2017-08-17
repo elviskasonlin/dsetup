@@ -6,6 +6,7 @@ Pyae’s personal setup
 The Git repo consists of the following
 * vim (vim folder + vimrc)
 * bash related items (.bash_profile, .bash_aliases)
+* tmux config (without theme file)
 
 ## 2. Order of installations
 1. Cmd Line Tools (standalone, first term prompt)
@@ -17,5 +18,6 @@ The Git repo consists of the following
 7. ruby (via rvm)
 8. tree & wget (via homebrew)
 9. xquartz (via homebrew cask)
-10. xclip (via home-brew)
+10. xclip (via homebrew)
 11. cocoapods (requires ruby)
+12. python3 (via homebrew)
