@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/elviskason.lin/Code_Design/01_Projects'
-let g:netrw_dirhist_2='/Users/elviskason.lin/Code_Design'
-let g:netrw_dirhist_3='/Users/elviskason.lin/Code_Design/01_Projects'
-let g:netrw_dirhist_4='/Users/elviskason.lin/Code_Design/01_Projects/20170101_BOT_SportSG'
-let g:netrw_dirhist_5='/Users/elviskason.lin/Code_Design/01_Projects/20170101_BOT_SportSG/src'
-let g:netrw_dirhist_6='/Users/elviskason.lin/Code_Design/01_Projects/20170101_BOT_SportSG/src/announcements'

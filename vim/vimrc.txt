@@ -37,6 +37,9 @@ inoremap kj <ESC>
 set number
 
 " Enable code folding
+set nofoldenable
+set foldnestmax=10
+set foldlevel=2
 augroup vimrc
   au BufReadPre * setlocal foldmethod=indent
   au BufWinEnter * if &fdm == 'indent' | setlocal foldmethod=manual | endif
@@ -52,6 +55,9 @@ set virtualedit=onemore
 
 " Set automatic indenting, C-style
 set cindent
+
+" Disable strict backspace.
+set backspace=indent,eol,start
 
 " Buffer tweaks
 set switchbuf=usetab
@@ -118,6 +124,10 @@ Plug 'Valloric/YouCompleteMe'
 " ////////SYNTAX HIGHLIGHT///////
 " JSON
 Plug 'elzr/vim-json'
+" Kotlin
+Plug 'udalov/kotlin-vim'
+" C++
+Plug 'https://github.com/bfrg/vim-cpp-modern'
 
 " Plug set-up end
 call plug#end()
@@ -155,7 +165,12 @@ nnoremap <leader>] :lnext
 let g:syntastic_check_on_open = 1
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
-let g:yntastic_enable_balloons = 1
+let g:syntastic_enable_balloons = 1
 let g:syntastic_auto_jump = 2
 let g:syntastic_loc_list_height = 6
+
+" C++ syntax
+let g:c_no_curly_error=1
+let g:cpp_class_scope_highlight = 1
+let g:cpp_concepts_highlight = 1
 
