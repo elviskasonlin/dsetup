@@ -18,6 +18,5 @@ The Git repo consists of the following
 7. ruby (via rvm)
 8. tree & wget (via homebrew)
 9. xquartz (via homebrew cask)
-10. xclip (via homebrew)
-11. cocoapods (requires ruby)
-12. python3 (via homebrew)
+10. cocoapods (requires ruby)
+11. python3 (via homebrew)
