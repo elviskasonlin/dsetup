@@ -69,11 +69,26 @@ ln -s -F ~/Code_Design/03_others/personalisation/dsetup/bash/bash_profile.txt ~/
 # Language specific stuff                 #
 ###########################################
 
+# Version managers
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash # NVM
+\curl -sSL https://get.rvm.io | bash -s stable # RVM
+source ~/.bash_profile
+
 # NodeJS
-brew install python3
+nvm install node
 
 # Ruby
-npm install -g tern brunch
+rvm install 2.4.1
+rvm use 2.4.1
+
+# Python 3
+brew install python3
+
+# iOS
+brew install cocoapods
+
+# Casks
+brew cask install xquartz
 
 
 ###########################################

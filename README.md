@@ -20,3 +20,9 @@ The Git repo consists of the following
 9. xquartz (via homebrew cask)
 10. cocoapods (requires ruby)
 11. python3 (via homebrew)
+
+## Setting up on a new mac
+Run the following command in the Terminal:
+```bash
+$ sh -c "$(curl https://github.com/elviskasonlin/dsetup/raw/master/macos_installer.sh)"
+```
